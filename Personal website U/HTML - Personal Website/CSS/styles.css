@@ -1,0 +1,23 @@
+/* EXTERNAL CSS by adding stylesheet */
+/* Percedence - INLINE > INTERNAL > EXTERNAL , priority opposite */
+
+body{
+    background-color: #F7F5EB
+  }
+
+/* selector {property: value;} , who what how */
+hr{
+    border-color: #EAE0DA;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 5%;
+  }
+
+h1{
+    color: #DBA39A;
+  }
+
+h3{
+    color: #DBA39A;
+  }
