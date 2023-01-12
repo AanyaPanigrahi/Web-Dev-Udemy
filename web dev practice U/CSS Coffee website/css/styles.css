@@ -1,0 +1,36 @@
+/*************************************** TAG SELECTORS ***************************************/ 
+h1{
+    color: rgb(34, 32, 32);
+    font-size: 80px;
+}
+
+/*would overwrite default selector*/
+
+img:hover {
+    background-color: goldenrod;
+}
+
+
+/*************************************** CLASS SELECTORS ***************************************/ 
+
+.coffee{
+    background-color: aqua;
+}
+/*would overwrite tag selector*/
+
+.pizza{
+    background-color: aquamarine;
+}
+
+.circular{
+    border-radius: 20%;
+}
+
+/*************************************** ID SELECTORS ***************************************/ 
+#heading{
+    color: brown;
+}
+/*would overwrite tag selector too
+
+use id for specific elements and class for a group of related elements
+also, we can have multiple id selectors but no id selector can be used more than once*/
