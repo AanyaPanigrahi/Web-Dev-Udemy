@@ -1,0 +1,47 @@
+/* COMMON BLOCK DISPLAY ELEMENTS - takes whole width of webpage
+blocking elements to be placed beside it
+paragraphs tag <p>
+headers <h1> to <h6>
+divisions <div>
+lists and list items <ol> , <ul> , <li>
+forms <form> */
+
+p{
+    background-color: aquamarine;
+}
+
+div{
+    background-color: paleturquoise;
+}
+
+/* COMMON INLINE ELEMENTS -just takes the content space
+spans <span>
+images <img>
+anchors <a> */
+
+span{
+    background-color: rgb(235, 207, 170);
+}
+
+/* block to inline */
+.parachange{
+    display: inline;
+}
+
+/* inline to block */
+.spanchange{
+    display: block;
+    width: 100px;
+}
+
+/* inline-block: will act as both and take the mentioned width */
+.para2{
+    display: inline-block;
+    width: 100px;
+}
+
+.ok{
+    display: none;
+}
+/* erares the element completely whereas visiblity hidden
+just hides the element but keeps its place/position same */
