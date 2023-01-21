@@ -1,0 +1,39 @@
+.first{
+    background-color: aquamarine;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 20px;
+}
+.second{
+    background-color: beige;
+    width: 100px;
+    height: 100px;
+    position: fixed;
+}
+.third{
+    background-color: yellowgreen;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 50px;
+    right: 20px;
+}
+
+/* default position is static whereas relative is with respect to the initial position
+its initial left,right line etc */
+/* margin-left , margin-top etc were with respect to screen */
+
+/* absolute refers to adding a margin with respect to its parent element */
+.yellow{
+    background-color: yellow;
+    height: 100px;
+}
+
+.p{
+    position: absolute;
+    right: 30px;
+}
+
+/* parent not mentioned then its entire body */
+/* fixed remains still on scrolling */
